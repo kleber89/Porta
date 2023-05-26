@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <!-- MENU ENCABEZADO-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Edu</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="Inicio">INICIO</a></li>
+                    <li><a href="Sobremi">SOBRE MI</a></li>
+                    <li><a href="Sobremi">SKILLS</a></li>
+                    <li><a href="Servicios">CURRICULUM</a></li>
+                    <li><a href="Contacto">PORTAFOLIO</a></li>
+                    <li><a href="Curriculum">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!--SECCION INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="/Imagenes/Kleber.jpg" alt="" height="320px">
+            </div>
+            <h1>Clever Edu Perea</h1>
+            <h2>Desarrollador Web</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+
+    <!--SECCION SOBRE MI-->    
+    </section>
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, Soy Clever Edu Perea.</span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere perspiciatis delectus dignissimos non incidunt enim laboriosam sed voluptates. Voluptatibus, iure distinctio quos necessitatibus voluptas commodi modi obcaecati! Similique, aperiam dignissimos.</p>
+
+            <div class="fila">
+                <!--DATOS PERSONALES-->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Fecha de Nacimiento</strong>
+                            04-03-1989
+                        </li>
+                        <li>
+                            <strong>Telefono</strong>
+                            +57 320 314 0226
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            benkosisackson@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.website.com
+                        </li>
+                        <li>
+                            <strong>Direccion</strong>
+                            Calle 78 Cra. 51B-16
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <strong>Freelance</strong>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--INTERESES-->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="intereses">
+                            <i class="fa-regular fa-futbol"></i>
+                            <span>Futbol</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-book-open-reader"></i>
+                            <span>Leer</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-regular fa-headphones"></i>
+                            <span>Musica</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-volleyball"></i>
+                            <span>Voleibol</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skill">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila"></div>
+            <!-- Technical skill -->
+            <div class="col">
+                <h3>Technical Skills</h3>
+                <div class="skill">
+                    <span>Javascript</span>
+                    <div class="barra-skill">
+                        <div class="progreso javascript">
+                            <span>75%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>HTML & CSS</span>
+                    <div class="barra-skill">
+                        <div class="progreso htmlcss">
+                            <span>89%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Java</span>
+                    <div class="barra-skill">
+                        <div class="progreso java">
+                            <span>65%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Professional skill -->
+            <div class="col">
+                <h3>Professional Skills</h3>
+                <div class="skill">
+                    <span>Comunicación</span>
+                    <div class="barra-skill">
+                        <div class="progreso comunicacion">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Trabajo en Equipo</span>
+                    <div class="barra-skill">
+                        <div class="progreso trabajoenequipo">
+                            <span>92%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Creatividad</span>
+                    <div class="barra-skill">
+                        <div class="progreso creatividad">
+                            <span>85%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Dedicación</span>
+                    <div class="barra-skill">
+                        <div class="progreso dedicacion">
+                            <span>75%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Proyect Management</span>
+                    <div class="barra-skill">
+                        <div class="progreso proyectmanagement">
+                            <span>55%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Universidad de Carolina del Norte</span>
+                        <span class="fecha">2008-2016</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, dolor dicta, nobis aperiam pariatur saepe vitae nam autem alias ex maxime quia incidunt, omnis at accusamus quae! Itaque, quod deserunt?</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Universidad de Carolina del Norte</span>
+                        <span class="fecha">2008-2016</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, dolor dicta, nobis aperiam pariatur saepe vitae nam autem alias ex maxime quia incidunt, omnis at accusamus quae! Itaque, quod deserunt?</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Universidad de Carolina del Norte</span>
+                        <span class="fecha">2008-2016</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, dolor dicta, nobis aperiam pariatur saepe vitae nam autem alias ex maxime quia incidunt, omnis at accusamus quae! Itaque, quod deserunt?</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia Laboral</h3>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre Compañía</span>
+                        <span class="fecha">2008-2016</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, dolor dicta, nobis aperiam pariatur saepe vitae nam autem alias ex maxime quia incidunt, omnis at accusamus quae! Itaque, quod deserunt?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre Compañía</span>
+                        <span class="fecha">2008-2016</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, dolor dicta, nobis aperiam pariatur saepe vitae nam autem alias ex maxime quia incidunt, omnis at accusamus quae! Itaque, quod deserunt?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre Compañía</span>
+                        <span class="fecha">2008-2016</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, dolor dicta, nobis aperiam pariatur saepe vitae nam autem alias ex maxime quia incidunt, omnis at accusamus quae! Itaque, quod deserunt?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="/Imagenes/Website_Migration-min.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Website</h3>
+                        <p>Web Site</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/Imagenes/Website-Migration.webp" alt="">
+                    <div class="overlay">
+                        <h3>Migración WebSite</h3>
+                        <p>Migración</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/Imagenes/Computer-Network-Transparent-PNG.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Website</h3>
+                        <p>Website</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/Imagenes/website.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/Imagenes/ikin.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/Imagenes/ponpon.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="/Imagenes/contact_bg.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Medellín, Colombia
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: +57 320 314 0226
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: cw@example.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
